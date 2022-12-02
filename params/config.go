@@ -36,7 +36,7 @@ var (
 
 	BSCGenesisHash    = common.HexToHash("0x0d21840abff46b96c84b2ac9e10e4f5cdaeb5693cb665db62a2f3b02d2d57b5b")
 	ChapelGenesisHash = common.HexToHash("0x6d3c66c5357ec91d5c43af47e234a939b22557cbb552dc45bebbceeed90fbe34")
-	RialtoGenesisHash = common.HexToHash("0x7b52890c1d9273d92e89cb1407ce0de2315282a1d6f66bc867ca92666b98bfee")
+	RialtoGenesisHash = common.HexToHash("0x7e7af3a96af93ea7346aafb3f90cc27c8b9c424ddb02b54fadfa4ba7756bc183")
 	YoloV3GenesisHash = common.HexToHash("0xf1f2876e8500c77afcc03228757b39477eceffccf645b734967fe3c7e16967b7")
 )
 
@@ -300,7 +300,7 @@ var (
 		NanoBlock:           big.NewInt(21962149),
 		MoranBlock:          big.NewInt(22107423),
 		GibbsBlock:          big.NewInt(23846001),
-		BohrBlock:  big.NewInt(22107423), // todo: TBD
+		BohrBlock:           big.NewInt(22107423), // todo: TBD
 
 		Parlia: &ParliaConfig{
 			Period: 3,
